@@ -26,7 +26,7 @@ class Program
             {
                 throw new InvalidOperationException("The directory path could not be determined.");
             }
-
+            Console.WriteLine(FilePath);
             // Ensure the log directory exists
             Directory.CreateDirectory(directoryPath);
 
@@ -45,7 +45,7 @@ class Program
             await Task.WhenAll(tasks);
 
             Console.WriteLine("All threads have completed. Press any key to exit.");
-            Console.ReadKey();
+            //Console.ReadKey();
         }
         catch (Exception ex)
         {
