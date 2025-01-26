@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Coding_TestOly": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
