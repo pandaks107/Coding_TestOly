@@ -26,4 +26,4 @@ COPY --from=publish /app/publish .
 RUN mkdir -p /log
 
 # Generate an output file in `/log` on container start
-CMD ["sh", "-c", "echo 'This is a test output file.' > /log/output.txt && dotnet Coding_TestOly.dll"]
+CMD ["sh", "-c", "echo 'This is a test output file.' > /log/output1.txt && dotnet Coding_TestOly.dll"]

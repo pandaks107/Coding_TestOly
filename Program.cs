@@ -47,7 +47,7 @@ class Program
             Console.WriteLine(Path.GetDirectoryName(Path.GetFullPath(FilePath)));
 
             Console.WriteLine("All threads have completed. Press any key to exit.");
-            //Console.ReadKey();
+            Console.ReadKey();
         }
         catch (Exception ex)
         {
