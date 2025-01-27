@@ -44,6 +44,8 @@ class Program
             // Wait for all threads to complete
             await Task.WhenAll(tasks);
 
+            Console.WriteLine(Path.GetDirectoryName(Path.GetFullPath(FilePath)));
+
             Console.WriteLine("All threads have completed. Press any key to exit.");
             //Console.ReadKey();
         }
